@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Onload y Onclick Events</title>
+</head>
+<!--nel body aggiungo gli eventi onload e onresize quando carico o ridimensiono la pagina-->
+<body onload="message('LOAD')" onresize="message('RESIZE')">
+  <p id="output">Creo un paragrafo dove visulizzare il testo dell'evento</p>
+  <p onmouseover="message('MOUSEOVER')">Creo un paragrafo dove al passarci on il mouse ottengo il messaggio mouse over</p>
+  <p onclick="message('CLICK')">Creo un paragrafo dove al click ottengo il messaggio click event</p>
+    
+
+<script type="text/javascript" src="Events_onload_onclick.js"></script>
+</body>
+</html>
